@@ -3,4 +3,6 @@ Repository for the first group project on genomic QC, assembly and alignment
 
 **Basic Code**
 
-<code> dkkddk </code></pre>
+Run a batch file: <code> sbatch file.sh </code></pre>
+Read the queue for jobs in SLURM: <code> squeue </code></pre>
+Open complressed files: <code> zless </code></pre>
