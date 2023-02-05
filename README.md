@@ -3,7 +3,7 @@
 
 **Basic Code**
 
-Run a batch file: <code> sbatch file.sh </code></pre>
+Run a batch file: ensp <code> sbatch file.sh </code></pre>
 <br />
 Read the queue for jobs in SLURM: <code> squeue </code></pre>
 <br />
