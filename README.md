@@ -3,8 +3,8 @@
 
 **Basic Code**
 
-Run a batch file: ensp <code> sbatch file.sh </code></pre>
+Run a batch file: &ensp; <code> sbatch file.sh </code></pre>
 <br />
-Read the queue for jobs in SLURM: <code> squeue </code></pre>
+Read the queue for jobs in SLURM: &ensp; <code> squeue </code></pre>
 <br />
-Open complressed files:     <code> zless </code></pre>
+Open complressed files: &ensp; <code> zless </code></pre>
