@@ -2,4 +2,4 @@
 Repository for the first group project on genomic QC, assembly and alignment
 
 **Basics**
-"""ffff"""
+""ffff""
