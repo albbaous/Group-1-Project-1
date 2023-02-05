@@ -8,5 +8,6 @@
 + Open compressed files: &nbsp; <code> zless file.zip </code></pre>
 + Cancel job: &nbsp; <code> scancel jobnumber  </code></pre>
 + Check on specific job: <code> sacct -j jobnumber --format=jobid,jobname,elapsed,state,exitcode </code></pre>
-+ Make files readable and writable for everyone: <code> chmod a+rw unicycler_lr.sh </code></pre>
++ Make files readable and writable for everyone: <code> chmod a+rw file.sh </code></pre>
 + Make file executable for everyone: <code> chmod +x file.txt </code></pre>
++ Check file permissions for all files in directory: <code> ls -ltr </code></pre>
