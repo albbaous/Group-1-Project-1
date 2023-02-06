@@ -1,0 +1,26 @@
+
+#!/bin/bash
+#SBATCH --job-name=Group1_shortreads_exe
+#SBATCH --partition=hpc
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem=1g
+#SBATCH --time=05:00:00
+#SBATCH --output=/shared/Project1_Resources/Group1
+#SBATCH --error=/shared/Project1_Resources/Group1
+ 
+
+# These steps are required to activate Conda
+source $HOME/.bash_profile
+conda activate /shared/apps/conda/bio2
+
+mkdir 20230130TM_merge_R1_R2
+ 
+cat /shared/Project1_Resources/source_data/ds989matt/20211022_045448/Fastq/H164_S1_L00?_R1_001.fastq.gz >> /shared/Project1_Resources/Group1/20230130TM_merge_R1_R2/merged_S1_R1.fq.gz
+cat /shared/Project1_Resources/source_data/ds989matt/20211022_045448/Fastq/H3929_S2_L00?_R1_001.fastq.gz >> /shared/Project1_Resources/Group1/20230130TM_merge_R1_R2/merged_S2_R1.fq.gz
+cat /shared/Project1_Resources/source_data/ds989matt/20211022_045448/Fastq/H5294_S7_L00?_R1_001.fastq.gz >> /shared/Project1_Resources/Group1/20230130TM_merge_R1_R2/merged_S7_R1.fq.gz
+
+
+cat /shared/Project1_Resources/source_data/ds989matt/20211022_045448/Fastq/H164_S1_L00?_R2_001.fastq.gz >> /shared/Project1_Resources/Group1/20230130TM_merge_R1_R2/merged_S1_R2.fq.gz
+cat /shared/Project1_Resources/source_data/ds989matt/20211022_045448/Fastq/H3929_S2_L00?_R2_001.fastq.gz >> /shared/Project1_Resources/Group1/20230130TM_merge_R1_R2/merged_S2_R2.fq.gz
+cat /shared/Project1_Resources/source_data/ds989matt/20211022_045448/Fastq/H5294_S7_L00?_R2_001.fastq.gz >> /shared/Project1_Resources/Group1/20230130TM_merge_R1_R2/merged_S7_R2.fq.gz
