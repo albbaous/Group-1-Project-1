@@ -1,6 +1,9 @@
 # Group-1-Project-1
 *Repository for the first group project on genomic QC, assembly and alignment*
 
+**Likely Species of genome 1**
+Haloferax volcanii GenBank: CP001956.1
+
 **Basic Code**
 <br>
 + Run a batch file: &nbsp; <code> sbatch file.sh </code></pre>
