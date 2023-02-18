@@ -19,6 +19,3 @@ unicycler -l /shared/Project1_Resources/Group1/20230130TM_merge/barcode02_pass.f
 
 mkdir /shared/Project1_Resources/Group1/20230201TM_unicycler_res/bc7_pass
 unicycler -l /shared/Project1_Resources/Group1/20230130TM_merge/barcode07_pass.fq.gz -o /shared/Project1_Resources/Group1/20230201TM_unicycler_res/bc7_pass
-
-
-
