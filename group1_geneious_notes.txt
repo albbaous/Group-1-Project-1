@@ -1,0 +1,26 @@
+Genes of interest with differences between samples according to geneious 
+
+30bp gap between 233,621 - 233,650 in LBC 1 Mauve alignment 3 - missing in S7 only
+Gene ID: hicd (Homoisocitrate dehydrogenase)
+
+~1300bp base substitutions between 246,165 - 247,468 LCB 1 Mauve alignment 3 - differences in S1 only
+Gene ID: ISH3 family transposase ISH51
+
+~1,000bp base substitutions within gene between 247,590 - 248,603 LCB1 Mauve alignment 3 - difference in S1 only 
+Gene ID: IS4 family transposase ISHvo11 
+
+~400bp base substiutions at 5' end of gene between 253,094 - 253,467 LCB1 Mauve alignment 3 - difference in S1 only 
+Gene ID: ISH3 family transposase ISH51
+
+470bp base substitutions in non-coding region between 502,855 - 503,324 LCB2 Mauve alignment 3 - missing in S7 only
+
+12bp repeat region (ggg..) missing between 527,631 - 527,642 LCB2 Mauve alignment - only found in S1, missing in S2 & S7
+
+trpA partially missing in both S1 and S2, and S7 in different regions 579,00
+5' end missing from S2, 3' end missing from S1 and S7
+
+Beta-galactosidase 1,338,610
+
+860bp missing region between 58,954 - 59,813 LCB3 Mauve alignment 3 - missing in S7 only 
+
+474bp missing region between 502,855 - 503,328 LCB2 Mauve alignment 3 - missing in S7 only
