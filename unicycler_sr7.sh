@@ -11,11 +11,11 @@
 source $HOME/.bash_profile
 conda activate /shared/home/mbxtm2/miniconda3/envs/unicycler
 
-#mkdir /shared/Project1_Resources/Group1/20230201TM_unicycler_res/S1_Align
-#unicycler -1 /shared/Project1_Resources/Group1/20230130TM_merge_R1_R2/merged_S1_R1.fq.gz -2 /shared/Project1_Resources/Group1/20230130TM_merge_R1_R2/merged_S1_R2.fq.gz -o /shared/Project1_Resources/Group1/20230201TM_unicycler_res/S1_Align
+mkdir /shared/Project1_Resources/Group1/20230201TM_unicycler_res/S1_Align
+unicycler -1 /shared/Project1_Resources/Group1/20230130TM_merge_R1_R2/merged_S1_R1.fq.gz -2 /shared/Project1_Resources/Group1/20230130TM_merge_R1_R2/merged_S1_R2.fq.gz -o /shared/Project1_Resources/Group1/20230201TM_unicycler_res/S1_Align
 
-#mkdir /shared/Project1_Resources/Group1/20230201TM_unicycler_res/S2_Align
-#unicycler -1 /shared/Project1_Resources/Group1/20230130TM_merge_R1_R2/merged_S2_R1.fq.gz -2 /shared/Project1_Resources/Group1/20230130TM_merge_R1_R2/merged_S2_R2.fq.gz -o /shared/Project1_Resources/Group1/20230201TM_unicycler_res/S2_Align
+mkdir /shared/Project1_Resources/Group1/20230201TM_unicycler_res/S2_Align
+unicycler -1 /shared/Project1_Resources/Group1/20230130TM_merge_R1_R2/merged_S2_R1.fq.gz -2 /shared/Project1_Resources/Group1/20230130TM_merge_R1_R2/merged_S2_R2.fq.gz -o /shared/Project1_Resources/Group1/20230201TM_unicycler_res/S2_Align
 
 
 mkdir /shared/Project1_Resources/Group1/20230201TM_unicycler_res/S7_Align
