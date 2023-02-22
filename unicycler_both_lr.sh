@@ -12,11 +12,11 @@ source $HOME/.bash_profile
 conda activate /shared/home/mbxtm2/miniconda3/envs/unicycler
 
 mkdir /shared/Project1_Resources/Group1/20230201TM_unicycler_res/bc1_pass
-unicycler -l /shared/Project1_Resources/Group1/20230130TM_merge/barcode01_pass.fq.gz -o /shared/Project1_Resources/Group1/20230201TM_unicycler_res/bc1_pass
+unicycler -l /shared/Project1_Resources/Group1/20230130TM_merge/barcode01_both.fq.gz -o /shared/Project1_Resources/Group1/20230201TM_unicycler_res/bc1_pass
 
 mkdir /shared/Project1_Resources/Group1/20230201TM_unicycler_res/bc2_pass
-unicycler -l /shared/Project1_Resources/Group1/20230130TM_merge/barcode02_pass.fq.gz -o /shared/Project1_Resources/Group1/20230201TM_unicycler_res/bc2_pass
+unicycler -l /shared/Project1_Resources/Group1/20230130TM_merge/barcode02_both.fq.gz -o /shared/Project1_Resources/Group1/20230201TM_unicycler_res/bc2_pass
 
 mkdir /shared/Project1_Resources/Group1/20230201TM_unicycler_res/bc7_pass
-unicycler -l /shared/Project1_Resources/Group1/20230130TM_merge/barcode07_pass.fq.gz -o /shared/Project1_Resources/Group1/20230201TM_unicycler_res/bc7_pass
+unicycler -l /shared/Project1_Resources/Group1/20230130TM_merge/barcode07_both.fq.gz -o /shared/Project1_Resources/Group1/20230201TM_unicycler_res/bc7_pass
 
