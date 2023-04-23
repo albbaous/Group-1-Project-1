@@ -20,7 +20,3 @@ prokka --outdir /shared/Project1_Resources/Group1/Prokka_results2/H2_prokka_repo
 
 prokka --outdir /shared/Project1_Resources/Group1/Prokka_results2/H7_prokka_report --prefix hybrid_s7 --genus Haloferax --species volcanii /shared/Project1_Resources/Group1/20230201TM_unicycler_res/007_hybrid_new1/hyb7_assembly.fasta
 
-
-
-
-
