@@ -27,3 +27,4 @@ prokka --outdir /shared/Project1_Resources/Group1/Prokka_results/L1_prokka_repor
 prokka --outdir /shared/Project1_Resources/Group1/Prokka_results/L2_prokka_report --prefix Long_L2 --genus Haloferax --species volcanii /shared/Project1_Resources/Group1/20230201TM_unicycler_res/lr_assemblies/bc2_both/lr2_assembly.fasta
 
 prokka --outdir /shared/Project1_Resources/Group1/Prokka_results/L7_prokka_report --prefix Long_L7 --genus Haloferax --species volcanii /shared/Project1_Resources/Group1/20230201TM_unicycler_res/lr_assemblies/bc7_both/lr7_assembly.fasta
+
