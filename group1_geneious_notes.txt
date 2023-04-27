@@ -1,3 +1,5 @@
+# THIS INFORMATION WAS FOUND USING ASSEMBLIES OF OLD HYBRID SEQUENCES AND IS THEREFORE NOT USABLE
+
 Genes of interest with differences between samples according to geneious 
 
 30bp gap between 233,621 - 233,650 in LBC 1 Mauve alignment 3 - missing in S7 only
